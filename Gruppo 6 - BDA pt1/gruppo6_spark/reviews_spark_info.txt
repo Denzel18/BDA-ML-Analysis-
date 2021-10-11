@@ -1,0 +1,9 @@
+- Cambiare la directory di destinazione modificando 'directory':
+    directory = '/home/amircoli/Andrea_Chiorrini/Desktop/gruppo6_spark/'
+
+- Per modificare la fonte cambiare la variabile data_reviews:
+
+    data_sample = directory + "sample_us.tsv"
+    test = "hdfs://192.168.104.45:9000/test.tsv"
+
+    data_reviews = test
